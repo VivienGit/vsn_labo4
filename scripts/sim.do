@@ -63,5 +63,5 @@ if {$argc>1} {
   }
 
 } else {
-  do_all 3 0
+  do_all 4 0
 }

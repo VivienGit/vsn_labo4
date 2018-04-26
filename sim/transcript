@@ -16,7 +16,7 @@
 # ../src_sv
 # ../src_tb
 # QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
-# Start time: 12:03:17 on Apr 26,2018
+# Start time: 16:04:13 on Apr 26,2018
 # vlog -reportprogress 300 ../src_sv/math_computer.sv 
 # -- Compiling interface math_computer_input_itf
 # -- Compiling interface math_computer_output_itf
@@ -24,92 +24,10 @@
 # 
 # Top level modules:
 # 	math_computer
-# End time: 12:03:18 on Apr 26,2018, Elapsed time: 0:00:01
+# End time: 16:04:14 on Apr 26,2018, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
-# Start time: 12:03:18 on Apr 26,2018
-# vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
-# -- Compiling interface math_computer_input_itf
-# -- Compiling interface math_computer_output_itf
-# ** Error: (vlog-13069) ** while parsing file included at ../src_tb/math_computer_tb.sv(22)
-# ** at ../src_tb/class.sv(25): near "=": syntax error, unexpected '=', expecting ++ or --.
-# End time: 12:03:18 on Apr 26,2018, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
-# Error in macro ./../scripts/sim.do line 67
-# /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog +incdir+$Path_DUT $Path_TB/math_computer_tb.sv"
-#     (procedure "tb_compile" line 6)
-#     invoked from within
-# "tb_compile"
-#     (procedure "do_all" line 3)
-#     invoked from within
-# "do_all 3 0"
-#     invoked from within
-# "if {$argc>1} {
-#   if {[string compare $1 "all"] == 0} {
-#     do_all 0 $2
-#   } elseif {[string compare $1 "comp_vhdl"] == 0} {
-#     vhdl_compil
-#   } elseif ..."
-do ../scripts/sim.do
-# ../src_sv
-# ../src_tb
-# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
-# Start time: 12:08:17 on Apr 26,2018
-# vlog -reportprogress 300 ../src_sv/math_computer.sv 
-# -- Compiling interface math_computer_input_itf
-# -- Compiling interface math_computer_output_itf
-# -- Compiling module math_computer
-# 
-# Top level modules:
-# 	math_computer
-# End time: 12:08:18 on Apr 26,2018, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
-# Start time: 12:08:18 on Apr 26,2018
-# vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
-# -- Compiling interface math_computer_input_itf
-# -- Compiling interface math_computer_output_itf
-# ** Error: (vlog-13069) ** while parsing file included at ../src_tb/math_computer_tb.sv(22)
-# ** at ../src_tb/class.sv(25): near "=": syntax error, unexpected '=', expecting ++ or --.
-# End time: 12:08:18 on Apr 26,2018, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
-# Error in macro ./../scripts/sim.do line 67
-# /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
-#     while executing
-# "vlog +incdir+$Path_DUT $Path_TB/math_computer_tb.sv"
-#     (procedure "tb_compile" line 6)
-#     invoked from within
-# "tb_compile"
-#     (procedure "do_all" line 3)
-#     invoked from within
-# "do_all 3 0"
-#     invoked from within
-# "if {$argc>1} {
-#   if {[string compare $1 "all"] == 0} {
-#     do_all 0 $2
-#   } elseif {[string compare $1 "comp_vhdl"] == 0} {
-#     vhdl_compil
-#   } elseif ..."
-do ../scripts/sim.do
-# ../src_sv
-# ../src_tb
-# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
-# Start time: 12:09:29 on Apr 26,2018
-# vlog -reportprogress 300 ../src_sv/math_computer.sv 
-# -- Compiling interface math_computer_input_itf
-# -- Compiling interface math_computer_output_itf
-# -- Compiling module math_computer
-# 
-# Top level modules:
-# 	math_computer
-# End time: 12:09:29 on Apr 26,2018, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
-# Start time: 12:09:29 on Apr 26,2018
+# Start time: 16:04:14 on Apr 26,2018
 # vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
 # -- Compiling interface math_computer_input_itf
 # -- Compiling interface math_computer_output_itf
@@ -119,10 +37,10 @@ do ../scripts/sim.do
 # 
 # Top level modules:
 # 	math_computer_tb
-# End time: 12:09:30 on Apr 26,2018, Elapsed time: 0:00:01
+# End time: 16:04:14 on Apr 26,2018, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -t 1ns -novopt work.math_computer_tb -Gtestcase=3 -GERRNO=0 
-# Start time: 12:09:30 on Apr 26,2018
+# vsim -t 1ns -novopt work.math_computer_tb -Gtestcase=4 -GERRNO=0 
+# Start time: 16:04:14 on Apr 26,2018
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb
 # Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb_sv_unit
@@ -135,10 +53,243 @@ do ../scripts/sim.do
 # Loading work.math_computer_output_itf
 # Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer
 # Loading work.math_computer
-# Let's start the fourth test case
+# Let's start the fifth test case
 # done!
-# ** Note: $stop    : ../src_tb/math_computer_tb.sv(210)
-#    Time: 6625 ns  Iteration: 2  Instance: /math_computer_tb/TestSuite
-# Break in Module math_computer_tb at ../src_tb/math_computer_tb.sv line 210
-# End time: 12:10:01 on Apr 26,2018, Elapsed time: 0:00:31
+# Coverage from input : 100.000000
+# Coverage from input a : 100.000000
+# Coverage from output : 100.000000
+# ** Note: $stop    : ../src_tb/math_computer_tb.sv(283)
+#    Time: 16501585 ns  Iteration: 2  Instance: /math_computer_tb/TestSuite
+# Break in Module math_computer_tb at ../src_tb/math_computer_tb.sv line 283
+do ../scripts/sim.do
+# ../src_sv
+# ../src_tb
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:05:48 on Apr 26,2018
+# vlog -reportprogress 300 ../src_sv/math_computer.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling module math_computer
+# 
+# Top level modules:
+# 	math_computer
+# End time: 16:05:48 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:05:48 on Apr 26,2018
+# vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling package math_computer_tb_sv_unit
+# -- Compiling module math_computer_tb
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	math_computer_tb
+# End time: 16:05:48 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:05:51 on Apr 26,2018, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 1
+# vsim -t 1ns -novopt work.math_computer_tb -Gtestcase=4 -GERRNO=0 
+# Start time: 16:05:51 on Apr 26,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb_sv_unit
+# Loading sv_std.std
+# Loading work.math_computer_tb_sv_unit
+# Loading work.math_computer_tb
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_input_itf
+# Loading work.math_computer_input_itf
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_output_itf
+# Loading work.math_computer_output_itf
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer
+# Loading work.math_computer
+# Let's start the fifth test case
+# done!
+# Coverage from input : 100.000000
+# Coverage from input a : 100.000000
+# Coverage from output : 100.000000
+# ** Note: $stop    : ../src_tb/math_computer_tb.sv(284)
+#    Time: 35603655 ns  Iteration: 2  Instance: /math_computer_tb/TestSuite
+# Break in Module math_computer_tb at ../src_tb/math_computer_tb.sv line 284
+do ../scripts/sim.do
+# ../src_sv
+# ../src_tb
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:13:43 on Apr 26,2018
+# vlog -reportprogress 300 ../src_sv/math_computer.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling module math_computer
+# 
+# Top level modules:
+# 	math_computer
+# End time: 16:13:43 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:13:43 on Apr 26,2018
+# vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# ** Error: (vlog-13069) ../src_tb/math_computer_tb.sv(91): near "endtask": syntax error, unexpected endtask, expecting ';'.
+# ** Error: (vlog-13069) ../src_tb/math_computer_tb.sv(288): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) ../src_tb/math_computer_tb.sv(296): near "endprogram": syntax error, unexpected "SystemVerilog keyword 'endprogram'".
+# End time: 16:13:43 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 67
+# /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog +incdir+$Path_DUT $Path_TB/math_computer_tb.sv"
+#     (procedure "tb_compile" line 6)
+#     invoked from within
+# "tb_compile"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all 4 0"
+#     invoked from within
+# "if {$argc>1} {
+#   if {[string compare $1 "all"] == 0} {
+#     do_all 0 $2
+#   } elseif {[string compare $1 "comp_vhdl"] == 0} {
+#     vhdl_compil
+#   } elseif ..."
+do ../scripts/sim.do
+# ../src_sv
+# ../src_tb
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:14:06 on Apr 26,2018
+# vlog -reportprogress 300 ../src_sv/math_computer.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling module math_computer
+# 
+# Top level modules:
+# 	math_computer
+# End time: 16:14:06 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:14:07 on Apr 26,2018
+# vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# ** Error: (vlog-13069) ../src_tb/math_computer_tb.sv(288): near "else": syntax error, unexpected else.
+# ** Error: (vlog-13069) ../src_tb/math_computer_tb.sv(296): near "endprogram": syntax error, unexpected "SystemVerilog keyword 'endprogram'".
+# End time: 16:14:07 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
+# Error in macro ./../scripts/sim.do line 67
+# /opt/mentor/questasim/questasim/linux_x86_64/vlog failed.
+#     while executing
+# "vlog +incdir+$Path_DUT $Path_TB/math_computer_tb.sv"
+#     (procedure "tb_compile" line 6)
+#     invoked from within
+# "tb_compile"
+#     (procedure "do_all" line 3)
+#     invoked from within
+# "do_all 4 0"
+#     invoked from within
+# "if {$argc>1} {
+#   if {[string compare $1 "all"] == 0} {
+#     do_all 0 $2
+#   } elseif {[string compare $1 "comp_vhdl"] == 0} {
+#     vhdl_compil
+#   } elseif ..."
+do ../scripts/sim.do
+# ../src_sv
+# ../src_tb
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:14:37 on Apr 26,2018
+# vlog -reportprogress 300 ../src_sv/math_computer.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling module math_computer
+# 
+# Top level modules:
+# 	math_computer
+# End time: 16:14:37 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:14:37 on Apr 26,2018
+# vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling package math_computer_tb_sv_unit
+# -- Compiling module math_computer_tb
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	math_computer_tb
+# End time: 16:14:38 on Apr 26,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 16:14:40 on Apr 26,2018, Elapsed time: 0:08:49
+# Errors: 11, Warnings: 1
+# vsim -t 1ns -novopt work.math_computer_tb -Gtestcase=4 -GERRNO=0 
+# Start time: 16:14:40 on Apr 26,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb_sv_unit
+# Loading sv_std.std
+# Loading work.math_computer_tb_sv_unit
+# Loading work.math_computer_tb
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_input_itf
+# Loading work.math_computer_input_itf
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_output_itf
+# Loading work.math_computer_output_itf
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer
+# Loading work.math_computer
+# Let's start the fifth test case
+do ../scripts/sim.do
+# ../src_sv
+# ../src_tb
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:15:50 on Apr 26,2018
+# vlog -reportprogress 300 ../src_sv/math_computer.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling module math_computer
+# 
+# Top level modules:
+# 	math_computer
+# End time: 16:15:50 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.5c_2 Compiler 2016.10 Oct 17 2016
+# Start time: 16:15:50 on Apr 26,2018
+# vlog -reportprogress 300 "+incdir+../src_sv" ../src_tb/math_computer_tb.sv 
+# -- Compiling interface math_computer_input_itf
+# -- Compiling interface math_computer_output_itf
+# -- Compiling package math_computer_tb_sv_unit
+# -- Compiling module math_computer_tb
+# -- Compiling program TestSuite
+# 
+# Top level modules:
+# 	math_computer_tb
+# End time: 16:15:50 on Apr 26,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:15:51 on Apr 26,2018, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 1
+# vsim -t 1ns -novopt work.math_computer_tb -Gtestcase=4 -GERRNO=0 
+# Start time: 16:15:51 on Apr 26,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_tb_sv_unit
+# Loading sv_std.std
+# Loading work.math_computer_tb_sv_unit
+# Loading work.math_computer_tb
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_input_itf
+# Loading work.math_computer_input_itf
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer_output_itf
+# Loading work.math_computer_output_itf
+# Refreshing /media/sf_VSN/labo4/code/sim/work.math_computer
+# Loading work.math_computer
+# Let's start the fifth test case
+# Time to stop !!
+# done!
+# Coverage from input : 100.000000
+# Coverage from input a : 100.000000
+# Coverage from output : 100.000000
+# ** Note: $stop    : ../src_tb/math_computer_tb.sv(295)
+#    Time: 9252495 ns  Iteration: 2  Instance: /math_computer_tb/TestSuite
+# Break in Module math_computer_tb at ../src_tb/math_computer_tb.sv line 295
+# End time: 16:16:13 on Apr 26,2018, Elapsed time: 0:00:22
 # Errors: 0, Warnings: 1
